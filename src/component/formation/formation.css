@@ -1,0 +1,145 @@
+/* styles.css */
+#filtrer{
+  margin: 40px 0px 0px 10px;
+}
+#filtrer label{
+  display: inline-block;
+  width: 100px;
+  font-weight: 700;
+}
+#filtrer input{
+  padding: 5px;
+  width: 300px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+
+
+/* styles.css AddFormation*/
+
+.container {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+} */
+form{
+  margin-left: 100px;
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 400px;
+  margin-left: 500px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* formation.css */
+
+/* Style for modal dialog */
+.modal-dialog {
+  max-width: 700px; /* Set the maximum width of the modal */
+}
+
+/* Style for modal content */
+.modal-content {
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+/* Style for modal title */
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form{
+  width: 600px;
+}
+
+/* Style for form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style for form inputs */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* Style for form select */
+.form-select {
+  margin-bottom: 15px;
+}
+
+/* Style for modal footer */
+.modal-footer {
+  justify-content: flex-end; /* Align buttons to the right */
+}

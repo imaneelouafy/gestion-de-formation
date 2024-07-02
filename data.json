@@ -1,0 +1,140 @@
+{
+  "employe": [
+    {
+      "id": "03a0",
+      "nom": "morabiti",
+      "prenom": "salma",
+      "age": "28",
+      "tele": "0609168517",
+      "email": "morabiti@gmail.com",
+      "diplome": "Economie",
+      "nombreFormation": 1
+    },
+    {
+      "id": "d60c",
+      "nom": "imane",
+      "prenom": "salah",
+      "age": "30",
+      "tele": "087654543",
+      "email": "fadil@gmail.com",
+      "diplome": "Informatique",
+      "nombreFormation": 1
+    },
+    {
+      "id": "19f4",
+      "nom": "sami",
+      "prenom": "sanae",
+      "age": "28",
+      "tele": "0609168517",
+      "email": "sami@gmail.com",
+      "diplome": "Comptabilité",
+      "nombreFormation": 1
+    }
+  ],
+  "formation": [
+    {
+      "id": "3",
+      "nom": "JavaScript",
+      "date_debut": "2024-02-08",
+      "date_fin": "2024-02-14",
+      "adresse": "Hay elmohamadi a ",
+      "etat": "terminer"
+    },
+    {
+      "nom": "Bootstrap",
+      "date_debut": "2024-03-06",
+      "date_fin": "2024-03-29",
+      "adresse": "inzgane",
+      "etat": "terminer",
+      "id": "2ee3"
+    },
+    {
+      "nom": "html",
+      "date_debut": "2024-06-23",
+      "date_fin": "2024-08-17",
+      "adresse": "el houda",
+      "etat": "en cours",
+      "id": "8aa7"
+    },
+    {
+      "id": "d8d8",
+      "nom": "json",
+      "date_debut": "2024-09-29",
+      "date_fin": "2024-11-14",
+      "adresse": "hay salam",
+      "etat": "programmer"
+    },
+    {
+      "nom": "html",
+      "date_debut": "2024-03-07",
+      "date_fin": "2024-03-22",
+      "adresse": "Al houda",
+      "etat": "terminer",
+      "id": "42b1"
+    },
+    {
+      "id": "f86c",
+      "nom": "laravel",
+      "date_debut": "2024-04-19",
+      "date_fin": "2024-04-30",
+      "adresse": "liraq",
+      "etat": "programmer"
+    },
+    {
+      "id": "3b0c",
+      "nom": "tailwind",
+      "date_debut": "2024-04-18",
+      "date_fin": "2024-05-22",
+      "adresse": "hay mohamadi",
+      "etat": "programmer"
+    },
+    {
+      "id": "7fd5",
+      "nom": "json",
+      "date_debut": "2024-03-22",
+      "date_fin": "2024-04-30",
+      "adresse": "hay mohamadi",
+      "etat": "programmer"
+    },
+    {
+      "id": "c80a",
+      "nom": "html",
+      "date_debut": "2024-04-06",
+      "date_fin": "2024-04-25",
+      "adresse": "el houda",
+      "etat": "programmer"
+    }
+  ],
+  "participation": [
+    {
+      "idEmploye": "d60c",
+      "idDiplome": "Informatique",
+      "idFormation": "7fd5",
+      "id": "aa96"
+    },
+    {
+      "idEmploye": "19f4",
+      "idDiplome": "Comptabilité",
+      "idFormation": "3b0c",
+      "id": "f65c"
+    },
+    {
+      "id": "85b0",
+      "idEmploye": "03a0",
+      "idDiplome": "Economie",
+      "idFormation": "8aa7"
+    },
+    {
+      "id": "f5c4",
+      "idEmploye": "03a0",
+      "idDiplome": "Economie",
+      "idFormation": "8aa7"
+    },
+    {
+      "idEmploye": "03a0",
+      "idDiplome": "Economie",
+      "idFormation": "d8d8",
+      "id": "dab7"
+    }
+  ]
+}
